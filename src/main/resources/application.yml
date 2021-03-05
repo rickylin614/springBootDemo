@@ -1,6 +1,1 @@
-
-server:  port: 8081
-
-#person:
-#  lastName: 李四
-#  age: 99
+server:  port: 8081spring:  profiles:    active:    - prod---spring:  profiles: devserver:  port: 8083---spring:  profiles: prodserver:  port: 8082  # 環境設定也可使用命令行模式  --spring.profiles.active=dev# java -jar springbootdemo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev

@@ -1,6 +1,9 @@
 package springboot.demo;
 
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +36,6 @@ class SpringbootdemoApplicationTests {
 		
 		// 確認使用@Configuration配置類，做配置文件產生bean
 		System.out.println(ioc.containsBean("HelloService2"));
-		
 	}
 
 }
